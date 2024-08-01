@@ -1,0 +1,114 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #a00433;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .auth-container {
+    background-color: whitesmoke;
+    padding: 2.5rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .auth-title {
+    margin-bottom: 1.9rem;
+    font-size: 2rem;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .auth-input {
+    margin-bottom: 1rem;
+  }
+  
+  .auth-button {
+    width: 80%;
+    padding: 30px;
+    margin-bottom: 9rem;
+    border: none;
+    background-color: #a00433;
+    color: white;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .auth-button:hover {
+    background-color: #a00433;
+    
+  }
+  
+  .auth-button.google {
+    background-color: #a00433;
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 1rem;
+    border: none;
+
+  }
+  .auth-button.log {
+    background-color: #a00433;
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 1.8rem;
+    margin-top: 1.5rem;
+    border: none;
+
+  }
+
+  .auth-button.sign {
+    background-color: #a00433;
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 1.8rem;
+    margin-top: 1.5rem;
+    border: none;
+
+  }
+  .auth-button.reset {
+    background-color: #a00433;
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 1.8rem;
+    margin-top: 1.5rem;
+    border: none;
+
+  }
+ 
+  
+  .auth-link {
+    color: #a00433;
+    text-decoration:underline;
+    margin-top: 1rem;
+    display: inline-block;
+  }
+  
+  .auth-link:hover {
+    text-decoration: underline;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 1rem;
+  }
+  
+  .success-message {
+    color: green;
+    margin-bottom: 1rem;
+  }
+  
+  .input-label {
+    font-size: 1rem;
+    color: #666;
+  }
+  
